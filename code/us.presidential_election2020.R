@@ -2,7 +2,7 @@ library(tidyverse)
 library(usmap)
 
 
-elect.us <- read_csv("voting.csv")
+elect.us <- read_csv("/Users/takayukitamura/Documents/R_Computing/presidential_election/data/voting.csv")
 
 elect.us <- elect.us %>% 
   rename(State = state) %>% 

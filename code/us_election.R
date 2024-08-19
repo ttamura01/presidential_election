@@ -17,7 +17,7 @@ swing_states <- tribble(~state, ~status,
                         "Nevada", TRUE,
                         "North Carolina", TRUE,
                         "Pennsylvania", TRUE,
-                        "Virginia", TRUE,
+                        "Arizona", TRUE,
                         "Wisconsin", TRUE)
 
 data <- college_votes %>% 
